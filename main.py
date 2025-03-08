@@ -13,7 +13,9 @@ class PDFMerger(QMainWindow):
         self.resize(800, 500)
         self.files = []
         self.selected_items = set()
+
         self.init_ui()
+
 
     def init_ui(self):
         # 创建主窗口部件
